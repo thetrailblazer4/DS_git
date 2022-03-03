@@ -1,0 +1,37 @@
+1) Navigate to a working dir
+	cd <path>
+
+2) Create a new dir
+	mkdir <dir_name>
+
+3) initialize the git  #used only once
+	git init
+
+4) Check status
+	git status
+5) Create a file
+	touch <file_name>
+6) In cmd prompt/terminal to write/modify a file
+	vi <file_name>
+	press i key to insert the data
+	write in the file
+	press esc key
+	press wq! to write, quit and save file
+
+7) git add <file_name>  {to add a single file}
+   git add .            {to add mutiple files}
+
+8) git commit -m "<write your message>"
+
+9) open github --> create repo --> and copy the repo path
+
+10) git remote add origin <repo path>    #used only once
+
+11) git push -u origin master
+
+
+"""
+git config --global user.email "youGitEmail"
+git config --global user.name "YourGithubUsername"
+
+"""
